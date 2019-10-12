@@ -1,0 +1,56 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffcc;
+} 
+/*.to create a rounded image*/
+/* We used margin auto sets to center photo
+*/
+img{
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+} 
+/*.to create a style of the header*/
+h1{
+    text-align: center;
+    color: purple;
+}
+
+section {
+    text-align: center;
+}
+
+/*Use pound sign to call an id tag from html */
+#ingredient_id {
+    color: purple;
+    font-size: 25px;
+}
+
+
+/*use pound sign to call an id tag from html*/
+#direction_id {
+    color: purple;
+    font-size: 25px;
+}
+
+
+.style_directions {
+    padding-bottom: 20px;/*Here we create a space between content below directions  */
+    list-style-position: inside;
+
+}
+
+/*.to create a style of the footer*/
+
+h2 {
+    text-align: center;
+    color: purple;
+}
+#foot{
+    text-align: center;
+}
+
+  
